@@ -19,6 +19,17 @@ android_app_import {
 	system_ext_specific: true,
 }
 
+android_app_import {
+	name: "EngineerMode",
+	owner: "xiaomi",
+	apk: "proprietary/system_ext/app/EngineerMode/EngineerMode.apk",
+	certificate: "platform",
+	dex_preopt: {
+		enabled: false,
+	},
+	privileged: true,
+}
+
 dex_import {
 	name: "mediatek-common",
 	owner: "xiaomi",
@@ -165,4 +176,3 @@ install_symlink {
 	installed_location: "lib64/libpq_prot.so",
 	symlink_target: "/vendor/lib64/mt6768/libpq_prot.so",
 }
-
