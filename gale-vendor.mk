@@ -8,17 +8,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/gale/proprietary/system_ext/bin/vtservice:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/vtservice \
     vendor/xiaomi/gale/proprietary/system_ext/etc/init/init.vtservice.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.vtservice.rc \
-    vendor/xiaomi/gale/proprietary/system_ext/lib/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_aoltest_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_audio_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib/libem_bleoffload_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_bleoffload_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_support_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/libem_wifi_jni.so \
     vendor/xiaomi/gale/proprietary/system_ext/lib64/libcomutils.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libcomutils.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib64/libem_aoltest_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_aoltest_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib64/libem_audio_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_audio_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib64/libem_bleoffload_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_bleoffload_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib64/libem_support_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_support_jni.so \
-    vendor/xiaomi/gale/proprietary/system_ext/lib64/libem_wifi_jni.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libem_wifi_jni.so \
     vendor/xiaomi/gale/proprietary/system_ext/lib64/libimsma.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma.so \
     vendor/xiaomi/gale/proprietary/system_ext/lib64/libimsma_adapt.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_adapt.so \
     vendor/xiaomi/gale/proprietary/system_ext/lib64/libimsma_rtp.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/libimsma_rtp.so \
@@ -657,7 +647,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gale/proprietary/vendor/lib/libnvram.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libnvram_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnvram_sec.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libnxp_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libnxp_extamp_intf.so \
-    vendor/xiaomi/gale/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libpq_cust_base.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpq_cust_base.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libpqframework.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqframework.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libpqparamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpqparamparser.so \
@@ -674,7 +663,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
-    vendor/xiaomi/gale/proprietary/vendor/lib/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libverno.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvolte_core_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_core_shr.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvolte_xdmc_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_xdmc_shr.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
@@ -1152,7 +1140,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ImsService \
-    EngineerMode \
     mediatek-common \
     mediatek-framework \
     mediatek-ims-base \
