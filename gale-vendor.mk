@@ -650,6 +650,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvcodec_utility.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodec_utility.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvcodecdrv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvcodecdrv_header_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvcodecdrv_header_stub.so \
+    vendor/xiaomi/gale/proprietary/vendor/lib/libverno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libverno.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvolte_core_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_core_shr.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvolte_xdmc_shr.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvolte_xdmc_shr.so \
     vendor/xiaomi/gale/proprietary/vendor/lib/libvp8dec_sa.ca7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvp8dec_sa.ca7.so \
